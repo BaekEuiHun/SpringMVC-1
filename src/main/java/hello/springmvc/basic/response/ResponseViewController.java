@@ -14,6 +14,7 @@ public class ResponseViewController {
         return mav;
     }
 
+
     //이 방식 사용
     @RequestMapping("/response-view-v2")
     public String responseViewV2(Model model) {
