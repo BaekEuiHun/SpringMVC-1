@@ -18,6 +18,7 @@ public class ResponseBodyController {
         return "ok";
     }
 
+    
     @ResponseStatus(HttpStatus.OK)
     @ResponseBody
     @GetMapping("/response-body-json-v2")
